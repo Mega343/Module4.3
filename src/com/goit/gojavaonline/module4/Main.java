@@ -7,6 +7,7 @@ public class Main {
 
         Temperature temp = new Temperature(50);
         CalcTemperature calcTemperature = new CalcTemperature();
-        calcTemperature.tempCalc(temp);
+        System.out.println("Температура в цельсиях: " + calcTemperature.tempCalcCel(temp));
+        System.out.println("Температура в Фаренгейтах " +calcTemperature.tempCalcFar(temp));
     }
 }
